@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pemesanan</title>
+</head> 
+<body>   
+    <h1 text align="center">PEMESANAN</h1>
+    <form action=""  method="POST">
+           <table>
+                <tr>
+                  <td width="130">Username</td>
+                  <td><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <td>No.Handphone</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <td>Alamat pemesan</td>
+                  <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                  <td>order date</td>
+                  <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jenis kelamin</td>
+                    <td><input type="radio" name="">Barang
+                    <input type="radio" name=""> Orang
+                </td>
+                </tr> 
+                    <td>jumlah penumpang
+                    <td><input type="checkbox" > 1 Orang
+                        <input type="checkbox" > 2 Orang
+                        <input type="checkbox" > 3 Orang
+                        <input type="checkbox" > Lebihnya
+                    </td>
+                    </tr>  
+                     <tr>Cabang :
+                    <select name="PIlih paket">
+                    <option value="Jakarta">padang</option>
+                    <option value="Bogor">bukit tinggi</option>
+                    <option value="Surabaya">pasaman</option>
+                    <option value="Kuala Lumpur">pekanbaru</option>
+             </select>
+                     </tr>      
+                     <tr>
+                    <td><input type="submit" value="Simpan">
+                    <td><input type="button" value="Reset">   
+                </td>
+                </tr>
+      </table>       
